@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <div class="row" id="display-topics"></div>
+        <div class="row" id="display-images"></div>
+      </div>
+      <div class="col-3">
+        <form id="form">
+          <div class="row">
+            <label for="search-term">Enter a Family Guy Figure Name!</label><br>
+            <div class="mw-80">
+              <input type="text" id="search-term" class="input-group border border-primary">
+            </div>
+          </div>
+          <div class="row">
+            <input id="submit-button" type="submit" value="Submit" class="btn btn-primary btn-sm mt-2">
+            <button id="reload" class="btn btn-secondary btn-sm mx-2 mt-2">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
