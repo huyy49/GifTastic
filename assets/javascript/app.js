@@ -43,6 +43,8 @@ $(document).ready(function () {
     }
 
     localStorage.setItem("topiclist", JSON.stringify(topics));
+
+    $("#search-term").val("");
   });
 
   var topics = JSON.parse(localStorage.getItem("topiclist"));
